@@ -1,0 +1,33 @@
+.projectSection {
+  display: flex;
+  justify-content: center;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 107px;
+  padding: 1rem;
+  max-width: 2000px;
+}
+
+/* .projectImage {
+  flex: 0 0 calc(33.333% - 1rem);
+  background-color: #e0e0e0;
+  padding: 1rem;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.buttonList {
+  width: 200px;
+  background-color: gray;
+  padding: 1rem;
+  margin-left: 200px;
+  box-shadow: 2px 0 5px rgba(224, 221, 221, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 1rem;
+} */

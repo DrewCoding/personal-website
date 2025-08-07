@@ -1,0 +1,25 @@
+.name {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.navButtons {
+  display: flex;
+  flex-direction: rows;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.navBar {
+  background-color: rgb(87, 85, 85);
+}
+
+.content {
+  flex: 1;
+}
