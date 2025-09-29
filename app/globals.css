@@ -14,7 +14,7 @@ inline {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #4b4a4a;
+    --background: url("/assets/blue-background.jpg");
     --foreground: #f7f2f2;
   }
 }
@@ -23,4 +23,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
 }

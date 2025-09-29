@@ -1,14 +1,32 @@
 .projectSection {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projectWindow {
+  display: flex;
+  flex-direction: column;
+  width: 1056px;
+  flex: 0 0 calc(56% - 1rem);
+  background-color: #2727bb;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .projectList {
   display: flex;
   flex-wrap: wrap;
-  gap: 107px;
-  padding: 1rem;
-  max-width: 2000px;
+  align-self: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 /* .projectImage {

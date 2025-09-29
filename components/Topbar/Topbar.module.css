@@ -1,0 +1,9 @@
+.container {
+  background-color: rgb(14, 3, 71);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* full width */
+  height: 40px;
+  z-index: 1000;
+}
