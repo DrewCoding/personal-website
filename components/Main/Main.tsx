@@ -35,8 +35,16 @@ export function Main() {
         </div>
       </div>
       <main className={styles.content}>
-        {currPage === "Introduction" && <Introduction />}
-        {currPage === "Projects" && <Projects />}
+        {currPage === "Introduction" && (
+          <div className={styles.fadeIn}>
+            <Introduction />
+          </div>
+        )}
+        {currPage === "Projects" && (
+          <div className={styles.fadeIn}>
+            <Projects />
+          </div>
+        )}
         {/* {currPage === "Contacts" && <Contacts />} */}
       </main>
       <Footer />

@@ -3,7 +3,7 @@ export const projects = [
     title: "Portfolio Website",
     description: "A personal site to showcase my work.",
     techStack: ["React", "Typscript", "Tailwind"],
-    imageUrl: "/assets/Example1.PNG",
+    src: "Driver-Planet.MP4",
     link: "http://localhost:3000",
   },
   {
@@ -11,22 +11,30 @@ export const projects = [
     description:
       "Repositories made easy. A user-friendly alternative to GitHub without feeling overwhelmed. IN DEVELOPMENT.",
     techStack: ["Go", "Typescript", "PostgreSQL"],
-    imageUrl: "/assets/Example1.PNG",
+    src: "Driver-Planet.MP4",
     link: "",
   },
   {
     title: "Free Unity Hoverbike Controller demo",
     description: "Fun Controllable Bike Physics template using rigidbody.",
     techStack: ["C#"],
-    imageUrl: "/assets/Example1.PNG",
+    src: "assets/Hoverbike-Demo.mp4",
     link: "https://github.com/",
   },
   {
-    title: "Free Unity A* pathfinding demo",
+    title: "Free Unity A* Pathfinding Demo",
     description:
       "Implements A* pathfinding to AI controllers, includes collision avoidance system.",
     techStack: ["C#"],
-    imageUrl: "/assets/Example1.PNG",
+    src: "Driver-Planet.MP4",
+    link: "https://github.com/",
+  },
+  {
+    title: "Battlefront-style Flight Controller",
+    description:
+      "A battle flight system using Rigidbody physics to propel the ship or plane forward.",
+    techStack: ["C#"],
+    src: "Driver-Planet.MP4",
     link: "https://github.com/",
   },
 ];

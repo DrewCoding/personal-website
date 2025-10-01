@@ -1,20 +1,15 @@
 "use client";
 
 import Image from "next/image";
+import { VideoPlayer } from "../VideoPlayer";
 import { project } from "../../lists/Projects";
 import style from "./Project.module.css";
 
-export function Project({
-  title,
-  description,
-  techStack,
-  imageUrl,
-  link,
-}: project) {
+export function Project({ title, description, techStack, src, link }: project) {
   return (
     <div className={style.container}>
       <div className={style.image}>
-        {imageUrl && <img src={imageUrl} width={500} />}
+        {src && <VideoPlayer videoName={src} />}
       </div>
       <div className={style.textInfo}>
         <div className={style.name}>{title}</div>

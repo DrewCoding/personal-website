@@ -16,7 +16,7 @@ export function Projects() {
               title={project.title}
               description={project.description}
               techStack={project.techStack}
-              imageUrl={project.imageUrl}
+              src={project.src}
               link={project.link}
             />
           ))}
