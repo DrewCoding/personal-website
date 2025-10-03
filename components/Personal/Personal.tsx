@@ -25,15 +25,15 @@ export function Personal() {
 
 export const contacts = [
   {
-    imageUrl: "/linkedin-logo.PNG",
+    imageUrl: "/linkedin-logo.png",
     link: "http://www.linkedin.com/in/andrew-williams-295a50223",
   },
   {
-    imageUrl: "/github-logo.PNG",
+    imageUrl: "/github-logo.png",
     link: "https://github.com/DrewCoding",
   },
   {
-    imageUrl: "/email-logo.PNG",
+    imageUrl: "/email-logo.png",
     link: "mailto:drewwilliams9090@gmail.com",
   },
 ];
