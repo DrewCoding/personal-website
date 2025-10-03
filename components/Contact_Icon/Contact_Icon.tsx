@@ -1,15 +1,18 @@
 "use client";
 
 import styles from "./Contact_Icon.module.css";
+import Image from "next/image";
 
 export function Contact_Icon({ imageUrl, link }: contact) {
   return (
     <div className={styles.iconContainer}>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img
+        <Image
           src={imageUrl}
           alt="o"
-          style={{ width: "30px", height: "30px", cursor: "pointer" }}
+          width={30}
+          height={30}
+          style={{ cursor: "pointer" }}
         />
       </a>
     </div>
