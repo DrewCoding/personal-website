@@ -6,7 +6,7 @@ import { Contact_Icon } from "../Contact_Icon";
 export function Personal() {
   return (
     <div className={styles.personalContainer}>
-      <div className={styles.introName}>Hi, I'm Andrew Williams</div>
+      <div className={styles.introName}>Hi, I&apos;m Andrew Williams</div>
       <div className={styles.description}>
         Software Engineer, Frontend Developer, Game Developer
       </div>
