@@ -14,7 +14,7 @@ inline {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: url("/assets/blue-background.jpg");
+    --background: url("/blue-background.jpg");
     --foreground: #f7f2f2;
   }
 }
