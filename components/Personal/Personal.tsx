@@ -12,7 +12,11 @@ export function Personal() {
       </div>
       <div className={styles.iconRow}>
         {contacts.map((contact, index) => (
-          <Contact_Icon imageUrl={contact.imageUrl} link={contact.link} />
+          <Contact_Icon
+            key={index}
+            imageUrl={contact.imageUrl}
+            link={contact.link}
+          />
         ))}
       </div>
     </div>

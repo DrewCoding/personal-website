@@ -1,17 +1,10 @@
 export const projects = [
   {
-    title: "Portfolio Website",
-    description: "A personal site to showcase my work.",
-    techStack: ["React", "Typscript", "Tailwind"],
-    src: "Driver-Planet.MP4",
-    link: "http://localhost:3000",
-  },
-  {
     title: "Cojekt",
     description:
       "Repositories made easy. A user-friendly alternative to GitHub without feeling overwhelmed. IN DEVELOPMENT.",
     techStack: ["Go", "Typescript", "PostgreSQL"],
-    src: "Driver-Planet.MP4",
+    src: "assets/Cojekt-Demo.MP4",
     link: "",
   },
   {
@@ -19,22 +12,22 @@ export const projects = [
     description: "Fun Controllable Bike Physics template using rigidbody.",
     techStack: ["C#"],
     src: "assets/Hoverbike-Demo.mp4",
-    link: "https://github.com/",
+    link: "https://github.com/DrewCoding/Speeder-Driver-Controller",
   },
   {
     title: "Free Unity A* Pathfinding Demo",
     description:
       "Implements A* pathfinding to AI controllers, includes collision avoidance system.",
     techStack: ["C#"],
-    src: "Driver-Planet.MP4",
-    link: "https://github.com/",
+    src: "assets/Astar-Demo.MP4",
+    link: "https://github.com/DrewCoding/A-Star-Civilian-Handling",
   },
   {
     title: "Battlefront-style Flight Controller",
     description:
       "A battle flight system using Rigidbody physics to propel the ship or plane forward.",
     techStack: ["C#"],
-    src: "Driver-Planet.MP4",
-    link: "https://github.com/",
+    src: "assets/Flight-Demo.MP4",
+    link: "https://github.com/DrewCoding/Space-Ship-Controler",
   },
 ];
